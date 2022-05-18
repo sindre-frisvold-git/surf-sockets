@@ -1,0 +1,19 @@
+{
+  "name": "surf-sockets",
+  "version": "1.0.0",
+  "description": "Web socket based multiplayer features for surf game",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sindre-frisvold-git/surf-sockets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sindre-frisvold-git/surf-sockets/issues"
+  },
+  "homepage": "https://github.com/sindre-frisvold-git/surf-sockets#readme"
+}

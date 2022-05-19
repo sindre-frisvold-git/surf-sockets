@@ -4,7 +4,7 @@
   "description": "Web socket based multiplayer features for surf game",
   "main": "index.js",
   "scripts": {
-     "start": "nodemon --watch index.js",
+    "start": "nodemon --watch index.js",
     "dev": "run-p dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
     "webpack": "webpack --config ./client/webpack.config.js",
@@ -41,6 +41,7 @@
     "express-jwt-authz": "^2.4.1",
     "jwks-rsa": "^2.1.2",
     "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1",
     "superagent": "^7.1.3"
   }
 }

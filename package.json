@@ -7,7 +7,7 @@
     "start": "nodemon --watch index.js",
     "dev": "run-p dev:client dev:server",
     "dev:client": "npm run webpack -- --watch",
-    "webpack": "webpack --config ./client/webpack.config.js",
+    "webpack": "webpack",
     "dev:server": "nodemon --watch server index.js"
   },
   "repository": {
